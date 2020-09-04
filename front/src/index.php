@@ -13,7 +13,7 @@
     <body>
         <?php include 'header.php'; ?>
         <div class="content">
-            <?php include 'calc.php'; ?>
+            <?php include 'calc_body.php'; ?>
         </div>
         <?php include 'footer.php'; ?>
 
