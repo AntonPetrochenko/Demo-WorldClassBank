@@ -1,0 +1,12 @@
+$primary_color: black;
+$highlight_color: #eb5017;
+
+@mixin primary-invert {
+    background-color: $primary_color;
+    color: white;
+}
+
+@mixin highlight-invert {
+    background-color: $highlight_color;
+    color: white;
+}

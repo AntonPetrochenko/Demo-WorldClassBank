@@ -1,0 +1,27 @@
+@use 'master';
+$footer-height: 60px;
+html {
+    position: relative;
+    min-height: 100%;
+}
+.content {
+    margin-bottom: $footer-height
+}
+footer {
+    font-size: small;
+    background-color: master.$primary-color;
+    width: 99%;
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    height: $footer-height;
+    padding-top: 20px;
+    a {
+        @include master.primary-invert;
+        display: inline-block;
+        margin-left: 20px;
+        &:first-child {
+            margin-left: 50px;
+        }
+    }
+}
